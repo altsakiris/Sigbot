@@ -86,13 +86,6 @@ client.on('message', msg => {
             }
         }
     }
-    else if (command === 'kollitos' || command === 'kollite' && args.length == 0) {
-        var fortunes = ["Αξίζει να σε βρουν νεκρό, κολλητέ. :)", "Αντε γαμήσου, κολλητέ. :)", "Να πεθάνεις σήμερα, κολλητέ. :)",
-                        "Να δημιουργηθεί server χωρίς εσένα, κολλητέ. :)", "Θα σου γαμήσω τη μάνα, κολλητέ. :)",
-                        "Τι θες ρε γαμημένε, κολλητέ; :)", "Γαμώ το χριστό σου, κολλητέ. :)"];
-        var rng = Math.floor(Math.random() * fortunes.length);
-        msg.channel.send(fortunes[rng]);
-    }
     // Turns on and off role updating
     else if (command === 'roleupdater'){
         if (msg.channel.name != "botcommans") {
