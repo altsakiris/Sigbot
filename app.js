@@ -356,4 +356,5 @@ function gameCheck (gameArg) {
     return game;
 }
 
-client.login('NDI2NDk2NzA5MTY2ODkxMDE5.DczceQ.Qba-82ZXoaFh0m-HMTZzAfGrRng');
+#token goes here
+client.login('');
